@@ -69,6 +69,11 @@ func (s *service) CreateConsignment(ctx context.Context, req *pb.Consignment, re
         return err
     }
 
+    // We set the VesselId as the vessel we got back from our
+	// vessel service
+    req.VesselId = vesselResponse.Vessel.Id
+
+
 	// Save our consignment
 	consignment, err := s.repo.Create(req)
 	if err != nil {
@@ -93,7 +98,7 @@ func main() {
 
 	repo := &Repository{}
 
-    // Create a new service. Optionally include some options here.
+    // Set-up micro instance
     srv := micro.NewService(
 
         // This name must match the package name given in your protobug definition
