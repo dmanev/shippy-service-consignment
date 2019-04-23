@@ -4,8 +4,8 @@ require (
 	cloud.google.com/go v0.37.4 // indirect
 	github.com/DataDog/zstd v1.4.0 // indirect
 	github.com/Shopify/sarama v1.22.0 // indirect
-	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2 // indirect
 	github.com/beorn7/perks v1.0.0 // indirect
+	github.com/dmanev/shippy-service-vessel v0.0.0-20190422080843-5e068f1f0746
 	github.com/go-logfmt/logfmt v0.4.0 // indirect
 	github.com/golang/protobuf v1.3.1
 	github.com/golangci/golangci-lint v1.16.0 // indirect
@@ -13,7 +13,6 @@ require (
 	github.com/gorilla/mux v1.7.1 // indirect
 	github.com/kisielk/errcheck v1.2.0 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
-	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/micro/go-micro v1.1.0
 	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
@@ -23,13 +22,14 @@ require (
 	github.com/prometheus/procfs v0.0.0-20190416084830-8368d24ba045 // indirect
 	github.com/sirupsen/logrus v1.4.1 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
+	go.mongodb.org/mongo-driver v1.0.1
 	go.opencensus.io v0.20.2 // indirect
 	golang.org/x/crypto v0.0.0-20190418165655-df01cb2cc480 // indirect
 	golang.org/x/exp v0.0.0-20190417140011-e40e924fdd3f // indirect
 	golang.org/x/image v0.0.0-20190417020941-4e30a6eb7d9a // indirect
 	golang.org/x/lint v0.0.0-20190409202823-959b441ac422 // indirect
 	golang.org/x/mobile v0.0.0-20190415191353-3e0bab5405d6 // indirect
-	golang.org/x/net v0.0.0-20190419010253-1f3472d942ba
+	golang.org/x/net v0.0.0-20190420063019-afa5a82059c6
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
 	golang.org/x/sync v0.0.0-20190412183630-56d357773e84 // indirect
 	golang.org/x/sys v0.0.0-20190418153312-f0ce4c0180be // indirect

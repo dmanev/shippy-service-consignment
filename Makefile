@@ -1,3 +1,7 @@
+gobuild:
+	CGO_ENABLED=0 GOOS=linux 
+	go build -o shippy-service-consignment -a -installsuffix cgo main.go repository.go handler.go datastore.go
+
 build:
 	protoc -I. --go_out=plugins=micro:. \
 	  proto/consignment/consignment.proto
